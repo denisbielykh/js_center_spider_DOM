@@ -6,8 +6,8 @@ function centerSpider() {
   const sTop = (wall.offsetHeight / 2) - (spider.offsetHeight / 2);
   const sLeft = (wall.offsetWidth / 2) - (spider.offsetWidth / 2);
 
-  spider.style.top = sTop;
-  spider.style.left = sLeft;
+  spider.style.top = sTop + 'px';
+  spider.style.left = sLeft + 'px';
 }
 
 centerSpider();
